@@ -1,0 +1,18 @@
+{
+	"id": "Q9kbyJMnHMm",
+	"version": "1.0.0",
+	"name": "cube大图模板2",
+	"idn": "cube_zixun_2",
+	"keywords": [""],
+	"ie": 8,
+	"disable_expand": false,
+	"launchimg": "assets/launchimg.png",
+	"files": [
+		"cube.tpl",
+		"cube.css",
+		"cube.js",
+		"assets/launchimg.png",
+		"components/Carousel/index.css",
+		"components/Carousel/index.js"
+	]
+}
