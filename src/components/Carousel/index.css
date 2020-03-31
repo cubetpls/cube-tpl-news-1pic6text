@@ -98,8 +98,8 @@
   margin: 13px 8px;
   cursor: pointer;
   background-image: url(//hao1.qhimg.com/t014e0c7faf3bde4a96.png);
-  background-image: -webkit-image-set(url(//hao1.qhimg.com/t013da4d429a343b3db.png) 1x, url(//hao1.qhimg.com/t013da4d429a343b3db.png) 2x);
-  background-image: image-set(url(//hao1.qhimg.com/t013da4d429a343b3db.png) 1x, url(//hao1.qhimg.com/t013da4d429a343b3db.png) 2x);
+  background-image: -webkit-image-set(url(//hao1.qhimg.com/t014e0c7faf3bde4a96.png) 1x, url(//hao1.qhimg.com/t013da4d429a343b3db.png) 2x);
+  background-image: image-set(url(//hao1.qhimg.com/t014e0c7faf3bde4a96.png) 1x, url(//hao1.qhimg.com/t013da4d429a343b3db.png) 2x);
   background-position: 0 0;
   background-repeat: no-repeat;
   position: relative;
