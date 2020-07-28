@@ -4,12 +4,25 @@
   {{/if}}
 
   <div class="carousel-box">
-    <cube-carousel
-      list="{{carouselList}}"
-      slot="{{carouselTpl}}"
+    <Carousel
+      interval="3000"
       width="368"
-      height="155">
-    </cube-carousel>
+      height="155"
+      btns="hover">
+      {{#list carouselList as item by item_index}}
+        <Carousel.Item>
+        <div class="carousel-item">
+          <a href="{{item.url}}" target="_blank">
+            <img src="{{item.pic | clipImage:'368_155_75'}}" width="368" height="155" alt="">
+            <p class="ext">
+              <span class="bg"></span>
+              <span class="title">{{item.text}}</span>
+            </p>
+          </a>
+        </div>
+        </Carousel.Item>
+      {{/list}}
+    </Carousel>
   </div>
 
   <div class="infor-box">
