@@ -11,8 +11,6 @@
 		"cube.tpl",
 		"cube.css",
 		"cube.js",
-		"assets/launchimg.png",
-		"components/Carousel/index.css",
-		"components/Carousel/index.js"
+		"assets/launchimg.png"
 	]
 }
